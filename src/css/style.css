@@ -81,6 +81,13 @@ header .search button {
   line-height: 2.4rem;
   text-transform: uppercase;
 }
+.search button:hover{
+	background: #FFF;
+	color:  rgba(6, 94, 124, 1);
+	}
+	.search button:hover  svg path{
+		fill: rgba(6, 94, 124, 1);
+	}
 #table {
   display: flex;
   flex-direction: column;
@@ -99,6 +106,9 @@ table th, table td{
   background: var(--primary-color);
   text-align: left;
   padding: 1.6rem;
+}
+table tr{
+	border-bottom: 0.1rem solid #4A808C;
 }
 table thead tr th:first-child{
 	min-width: 15.4rem;
@@ -120,6 +130,7 @@ td .remove{
   color: red;
   cursor: pointer;
 }
+
 
 table tr:nth-child(odd){
   background: rgba(9, 45, 56, 1);
