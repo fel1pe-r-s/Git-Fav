@@ -5,7 +5,10 @@ export class FavoritesView extends Favorites {
     super(root);
     this.update();
     this.onAdd()
+    this.notFavorite()
   }
+
+ 
 
   onAdd(){
     const addButton = this.root.querySelector('.search button')
@@ -17,6 +20,7 @@ export class FavoritesView extends Favorites {
 
   update() {
     this.removeAllTr();
+    this.notFavorite();
 
     this.entries.forEach((user) => {
       const { login, name, public_repos, followers } = user;
@@ -49,16 +53,26 @@ export class FavoritesView extends Favorites {
           ${followers}
           </td>
           <td>
-            <button class="remove">
-              &times;
-            </button>
+            <a class="remove">
+             Remover
+            </a>
           </td>      
     `;
     return tr;
   }
+  notFavorite() {
+    if(this.entries <= 0) {
+      this.root.querySelector('.not-favorite').classList.remove('hide')
+    } else {
+      this.root.querySelector('.not-favorite').classList.add('hide')
+
+    }
+  }
   removeAllTr() {
     this.tbody.querySelectorAll("tr").forEach((tr) => {
       tr.remove();
-    });
+    });    
   }
+
+ 
 }
