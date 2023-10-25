@@ -11,9 +11,9 @@ Aqui neste **[link](<https://www.figma.com/file/SzQA07HwmSPj4hOYgu1Pps/%5BDesafi
 ## Deploy
 
 Para Acessa o projeto<br>
-
+<img src="https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify">
 <a href="https://favorites-user-github.netlify.app" target="_blank">
-  <img src="https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify">
+  demo
 </a>
 
 <img src='./src/assets/demostra.jpeg' alt="Tela de demostração" width="100%" height="100%"> <br>
