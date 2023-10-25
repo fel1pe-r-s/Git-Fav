@@ -14,6 +14,8 @@ Para Acessa o projeto<br>
 [![Netlify](https://img.shields.io/badge/Deploy-000?style=for-the-badge&logo=netlify&logoColor=white)](https://favorites-user-github.netlify.app)
 
 
+[OpenAI](https://www.openai.com/){:target="_blank"}
+
 
 <img src='./src/assets/demostra.jpeg' alt="Tela de demostração" width="100%" height="100%"> <br>
 - Desafio proposto
